@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 75px;
+  align-items: baseline;
+  background-color: lightgrey;
+}
+#mainHeader {
+    font-size: 1.5rem;
+}
+#filmPage, #listPage, #journalPage{
+  font-size: 1.2rem;
+}
