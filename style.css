@@ -1,19 +1,31 @@
 * {
   margin: 0;
-  padding-top: 10px;
   box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
 }
 .flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   height: 75px;
-  align-items: baseline;
-  background-color: lightgrey;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+.flex-container2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px;
 }
 #mainHeader {
     font-size: 1.5rem;
 }
 #filmPage, #listPage, #journalPage{
   font-size: 1.2rem;
+}
+.link:hover{
+color: #ffffff;
 }

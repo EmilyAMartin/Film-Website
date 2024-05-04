@@ -1,3 +1,7 @@
+
+function showHomePage(){
+    window.location = "index.html";
+}
 function showFilmPage() {
     window.location = "films.html";
   }

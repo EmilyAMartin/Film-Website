@@ -8,5 +8,25 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div class="flex-container" id="navigation">
+      <div class="header" id="mainHeader" onclick="showHomePage()">Film Website</div>
+      <div class="link" id="filmPage" onclick="showFilmPage()">Films</div>
+      <div class="link" id="listPage" onclick="showListPage()">List</div>
+      <div class="link" id="journalPage" onclick="showJournalPage()">Journal</div>
+    </div>
+    <div class="flex-container2" id="filmNavigation">
+      <label for="cars">Films</label>
+    <select name="decade" id="decade">
+    <option value="decade">Decade</option>
+    <option value="2020's">2020's</option>
+    <option value="2010's">2010's</option>
+    <option value="2000's">2000's</option>
+    <option value="1990's">1990's</option>
+    </select>
+      
+      <div>Decade</div>
+      <div>Genre</div>
+      <div>Rating</div>
+    </div>
   </body>
 </html>
