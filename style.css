@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  background-color: darkgrey;
 }
 body{
   font-family: "Poppins", sans-serif;
@@ -22,10 +23,21 @@ body{
 }
 #mainHeader {
     font-size: 1.5rem;
+    background-color: lightgray;
 }
 #filmPage, #listPage, #journalPage{
   font-size: 1.2rem;
+  background-color: lightgray;
 }
 .link:hover{
 color: #ffffff;
+}
+select{
+outline: none;
+background-color: lightgray;
+border: lightgrey;
+border-radius: 3px;
+padding: 5px 10px;
+font-family: "Poppins", sans-serif;
+font-size: 0.9rem;
 }
