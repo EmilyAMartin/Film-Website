@@ -21,6 +21,12 @@ body{
   align-items: center;
   padding:20px;
 }
+.flex-container3{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding:20px;
+}
 #mainHeader {
     font-size: 1.5rem;
     background-color: lightgray;
@@ -34,8 +40,8 @@ color: #ffffff;
 }
 select{
 outline: none;
-background-color: lightgray;
-border: lightgrey;
+background-color: darkgray;
+border: 1px solid lightgray;
 border-radius: 3px;
 padding: 5px 10px;
 font-family: "Poppins", sans-serif;

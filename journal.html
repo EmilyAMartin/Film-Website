@@ -14,6 +14,24 @@
         <div class="link" id="listPage" onclick="showListPage()">List</div>
         <div class="link" id="journalPage" onclick="showJournalPage()">Journal</div>
       </div>
-      <div>JOURNAL</div>
+    <div class="flex-container3" id="journalForm">
+      <div>Title</div>
+      <label for="title"><input id="title" type="text" required></input></label>
+      <div>Director</div>
+      <label for="director"><input id="director" type="text" placeholder="" required></input></label>
+      <div>Genre</div>
+      <label for="genre"><input id="genre" type="text" placeholder="" required></input></label>
+      <div>Date Watched</div>
+      <label for="date"><input id="date" type="text" placeholder="" required></input></label>
+      <div>Rating</div>
+      <label for="one star"><input type="radio" id="one star" name="radio" value="One Star">One Star</label>
+      <label for="two stars"><input type="radio" id="two stars" name="radio" value="two stars">Two Stars</label>
+      <label for="three stars"><input type="radio" id="three stars" name="radio" value="three stars">Three Stars</label>
+      <label for="four stars"><input type="radio" id="four stars" name="radio" value="four stars">Four stars</label>
+      <label for="five stars"><input type="radio" id="five stars" name="radio" value="five stars">Five stars</label> 
+    <div>Thoughts</div>
+    <textarea id="text box" name="text box" rows="4" cols="50"></textarea>
+    <label for="submit"><input id="submit" type="submit" value="Submit"></label>
+    </div>
   </body>
 </html>
