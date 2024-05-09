@@ -1,4 +1,4 @@
-
+//Home Page//
 function showHomePage(){
     window.location = "index.html";
 }
@@ -11,3 +11,6 @@ function showListPage() {
   function showJournalPage() {
     window.location = "journal.html";
   }
+//Journal Page//
+//Film Page//
+//List Page//
