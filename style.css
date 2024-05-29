@@ -6,7 +6,10 @@
 body{
   font-family: "Poppins", sans-serif;
 }
-.flex-container {
+.header{
+  padding-bottom: 20px;
+}
+#navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -21,11 +24,19 @@ body{
   align-items: center;
   padding:20px;
 }
-.flex-container3{
+#journalForm{
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
   padding:30px;
+}
+#rating{
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+}
+#starfilled{
+  display: none;
 }
 #mainHeader {
     font-size: 1.5rem;

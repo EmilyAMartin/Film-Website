@@ -12,5 +12,8 @@ function showListPage() {
     window.location = "journal.html";
   }
 //Journal Page//
+function addRating(){
+  
+}
 //Film Page//
 //List Page//
