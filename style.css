@@ -55,17 +55,28 @@ font-size: 0.9rem;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  padding:25px 25px;
+  padding:25px;
   border: #000000 solid 2px;
   display: none;
-}
-#rating{
-  display: flex;
-  flex-flow: row;
-  justify-content: left;
 }
 #newEntry{
   display:none;
   padding:25px;
   border: #000000 solid 2px;
 }
+i,span{
+  font-size:3em;
+}
+i{
+  display:inline-block;
+}
+.container:hover i{
+  color: #fc0
+}
+.container i:hover{
+   color:#fc0
+}
+.container i:hover ~ i{
+  color:black;
+}
+
